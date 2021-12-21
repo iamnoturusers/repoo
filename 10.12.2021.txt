@@ -1,0 +1,103 @@
+how to create company id-
+
+bord of directors ,managers 
+
+for company tin no is mandatory(10 digit no)
+capital of compamy
+one address is mandtory for company also
+we may add board of directors ,, 
+we can set a limit (he can only set
+company id will genrated automatically
+
+for indiv -1
+2 -for company
+
+we have to autoroize after creation-
+authorizer()
+
+2 screen 
+one is for coustomer
+another for customer
+
+current account for corparte 
+acc no will be genrated automatically
+preset by management for vip customer(vip no)
+
+for current account there is no passbook
+for savings account there is no check book
+{
+13 digit account no---
+1 102 1 101 00143- we have divided
+1 no is area code
+2,3 and 4th are branch code
+101- product code(fr eg-s36 product)
+last five digits are random number which are genrated by the system
+}
+
+how it will saves in our database
+to save the information we uses table
+custmer- stcusmas-
+       -  stcusmas 1- temporavary table (used to modify data-for authorization)
+	- stadrmas()- address table
+--modified company will be stored in adrms
+--original-
+--how---form 60-
+there we uses procedures,,
+
+there are 2 types of procedure
+1.form level
+2.db level
+
+--key commit (saving process)
+when ever we create new customer we uses add mode
+
+it will check the clear-(
+flag e- inserting
+db level procedure--
+procedure--u--not authorized tabel
+
+yes--inputer side--
+fpr un authorized
+-- 
+
+type 1 -new customer
+type 2 - edited after authorization
+
+ST_INP_AUTH
+
+
+INPUTER --(RESPONCE FOR THE WRITING PART)
+(ONE OF THE BANK EXECUTIVE)-MODIFICATION OF DATA 
+
+AUTHORIZER- WHO VERIFY THE DATA AND APPROVAL
+(HE CAN'T EDIT ONLY HE CAN AUTHORIZE OR REJECT)
+
+A/C CREATION- TALBLE: STFACMAS (WHICH STORES ALL THE TYPE OF ACCOUNTS)
+
+FORM LEVEL-S-SAVINGS
+C-CURRENT ACCOUNT
+L-LOAN ACCOUNTS
+D-FIXED DEPOSIT OR TERM DEPOSIT ACCOUNT
+
+S-36 (S-SAVINGS 36- PRODUCT)
+
+TALBE: ORIGINAL - STFACMAS(TABLE)
+AFTER AUTHORIZAION - TEMP TABLE- STFAMAS-1
+UNAUTHORIZED - UNTUTHORIZED RECORD- (PENDING WORKS OF AUTHORIZER)
+
+REPORTS
+DAY OPENING AND DAY CLOSING
+DAILY OPENED AND CLOSED ACCOUNT
+
+
+
+
+
+
+
+
+
+
+
+
+
